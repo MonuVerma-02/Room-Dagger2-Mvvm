@@ -34,7 +34,6 @@ ViewModel instances survive configuration changes.
 * Room is built to work with LiveData and RxJava for data observation, while SQLite does not.
 
 <br/>
-
 ## 🚀 Learning Tips:
 
  There are following simple steps to implement Room Database with Dagger2 using MVVM architecture design pattern.
@@ -56,4 +55,4 @@ ViewModel instances survive configuration changes.
 |:----:|:----:|
 
 ## Demo
-<video width=300 height="500" controls><source src="demo/demo.mp4" type="video/mp4"></video>
+https://shorturl.at/xBOT8
