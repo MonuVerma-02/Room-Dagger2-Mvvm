@@ -37,12 +37,12 @@ ViewModel instances survive configuration changes.
 ## 🚀 Learning Tips:
 
  There are following simple steps to implement Room Database with Dagger2 using MVVM architecture design pattern.
-  - First Create Room Database with help of room components(Entity, DAO, Database).
+  - First create Room Database with help of room components(Entity, DAO, Database).
     1. Entity- Created table name and inside this table we have created our columns(like id, itemName, itemQuantity, itemPrice).
     2. DAO- DAO is responsible to perform SQL operations like insert , delete, update etc.
     3. Database- It is database helper class, which is used to provide database name and version, also provide database connection
     open and create database.
-  - After Create Room Database, all the operations like add items, delete item and display item will be written in Repository class and this will be
+  - After create Room Database, all the operations like add items, delete item and display item will be written in Repository class and this will be
     called from viewmodel.
   - For Dependency Injection, create module classes and provide dependencies like Room Database instance, Repository instance, ViewModel factory instance
     inside it. In component all modules need to be added and inside component mention where we want to inject this dependency, then create application class
