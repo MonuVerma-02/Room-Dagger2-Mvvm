@@ -32,8 +32,8 @@ ViewModel instances survive configuration changes.
 * As your schema changes, you need to update the affected SQL queries manually. Room solves this problem.
 * You need to use lots of boilerplate code to convert between SQL queries and Java data objects. But, Room maps our database objects to Java Object without boilerplate code.
 * Room is built to work with LiveData and RxJava for data observation, while SQLite does not.
-
 <br/>
+
 ## 🚀 Learning Tips:
 
  There are following simple steps to implement Room Database with Dagger2 using MVVM architecture design pattern.
