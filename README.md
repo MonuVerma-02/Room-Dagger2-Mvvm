@@ -53,6 +53,3 @@ ViewModel instances survive configuration changes.
 ## Screenshots
 |<img src="screenshots/my_cart.jpg" width=200/>|<img src="screenshots/add_item.jpg" width=200/>|
 |:----:|:----:|
-
-## Demo
-https://shorturl.at/xBOT8
