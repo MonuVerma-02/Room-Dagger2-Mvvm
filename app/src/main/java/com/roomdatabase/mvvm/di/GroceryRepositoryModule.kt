@@ -10,6 +10,6 @@ class GroceryRepositoryModule {
 
     @Provides
     fun provideGroceryRepository(database: GroceryDatabase):GroceryRepository{
-        return  GroceryRepository(database)
+        return GroceryRepository(database)
     }
 }
