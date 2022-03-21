@@ -10,11 +10,11 @@ import javax.inject.Inject
 class GroceryViewModel @Inject constructor(private val repository: GroceryRepository) :
     ViewModel() {
 
-    fun insert(item: GroceryItems) = GlobalScope.launch {
+    fun insert(item: GroceryItems) = viewModelScope.launch {
         repository.insert(item)
     }
 
-    fun delete(item: GroceryItems) = GlobalScope.launch {
+    fun delete(item: GroceryItems) = viewModelScope.launch {
         repository.delete(item)
     }
 
