@@ -1,6 +1,6 @@
 package com.roomdatabase.mvvm.di
 
-import com.roomdatabase.mvvm.database.GroceryDatabase
+import com.roomdatabase.mvvm.database.GroceryDao
 import com.roomdatabase.mvvm.repository.GroceryRepository
 import dagger.Module
 import dagger.Provides
@@ -9,7 +9,7 @@ import dagger.Provides
 class GroceryRepositoryModule {
 
     @Provides
-    fun provideGroceryRepository(database: GroceryDatabase):GroceryRepository{
-        return GroceryRepository(database)
+    fun provideGroceryRepository(doa: GroceryDao):GroceryRepository{
+        return GroceryRepository(doa)
     }
 }
